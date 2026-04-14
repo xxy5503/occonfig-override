@@ -1,0 +1,13 @@
+payload:
+  # 内容：Zoom
+  # 数量：7条
+  # - PROCESS-NAME,zoom.us
+  - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,zpns.zoom.us
+  - DOMAIN-SUFFIX,cloud.zoom.us
+  - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,zoomgov.com
+  - DOMAIN-SUFFIX,zoom.com
+  - DOMAIN-SUFFIX,zoom.com.cn
+
+  
