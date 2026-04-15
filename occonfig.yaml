@@ -464,7 +464,7 @@ rule-providers:
     format: text
     type: http  
   CustomDirect:
-    url: https://testingcf.jsdelivr.net/gh/xxy5503/occonfig-override@main/CustomDirect1.list
+    url: https://cdn.jsdelivr.net/gh/xxy5503/occonfig-override@main/CustomDirect1.list
     path: ./ruleset/CustomDirect1.list
     behavior: classical
     interval: 86400
