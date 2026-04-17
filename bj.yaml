@@ -525,6 +525,7 @@ rules:
   - "GEOSITE,hp,全球直连"
   - "GEOSITE,hpe,全球直连"
   - "GEOSITE,dell,全球直连"
+  - "GEOSITE,lenovo,全球直连"
   - "RULE-SET,zoom,故障转移"
   - "RULE-SET,AI-MIX,AI-UNHK"
   - "RULE-SET,trae,traes"
