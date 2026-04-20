@@ -515,7 +515,7 @@ rule-providers:
   claude:
     url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/anthropic.yaml
     path: ./ruleset/claude.yaml
-    behavior: classical
+    behavior: domain
     interval: 86400
     format: yaml
     type: http
