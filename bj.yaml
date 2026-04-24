@@ -75,6 +75,10 @@ proxy-groups:
       - 美国节点
       - 手动切换
       - DIRECT
+  - name: GitHub-Select
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png
+    include-all: true
+    type: select
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
@@ -97,12 +101,6 @@ proxy-groups:
       - 美国节点
       - 手动切换
       - DIRECT
-  - name: 哔哩哔哩
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/bilibili.png
-    type: select
-    proxies:
-      - 全球直连
-      - 香港节点
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
@@ -182,15 +180,6 @@ proxy-groups:
       - 香港节点
       - 日本节点
       - 手动切换
-  - name: 网易音乐
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netease_Music.png
-    type: select
-    include-all: true
-    filter: (?i)网易|音乐|NetEase|Music
-    proxies:
-      - DIRECT
-      - 节点选择
-      - 自动选择
   - name: 全球直连
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
     type: select
@@ -198,18 +187,6 @@ proxy-groups:
       - DIRECT
       - 节点选择
       - 自动选择
-  - name: 广告拦截
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
-  - name: 应用净化
-    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Hijacking.png
-    type: select
-    proxies:
-      - REJECT
-      - DIRECT
   - name: 漏网之鱼
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
@@ -259,7 +236,6 @@ proxy-groups:
       - AI-UNHK
       - 油管视频
       - 奈飞视频
-      - 哔哩哔哩
       - 国外媒体
       - 国内媒体
       - 谷歌FCM
@@ -268,10 +244,7 @@ proxy-groups:
       - 微软服务
       - 苹果服务
       - 游戏平台
-      - 网易音乐
       - 全球直连
-      - 广告拦截
-      - 应用净化
       - 漏网之鱼
       - 香港节点
       - 日本节点
@@ -288,20 +261,6 @@ rule-providers:
   UnBan:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/UnBan.list
     path: ./ruleset/UnBan.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  BanAD:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanAD.list
-    path: ./ruleset/BanAD.list
-    behavior: classical
-    interval: 86400
-    format: text
-    type: http
-  BanProgramAD:
-    url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
-    path: ./ruleset/BanProgramAD.list
     behavior: classical
     interval: 86400
     format: text
@@ -536,8 +495,6 @@ rules:
   - "RULE-SET,CustomDirect,全球直连"
   - "RULE-SET,LocalAreaNetwork,全球直连"
   - "RULE-SET,UnBan,全球直连"
-  - "RULE-SET,BanAD,广告拦截"
-  - "RULE-SET,BanProgramAD,应用净化"
   - "RULE-SET,GoogleFCM,谷歌FCM"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,SteamCN,全球直连"
@@ -555,7 +512,6 @@ rules:
   - "RULE-SET,Apple,苹果服务"
   - "RULE-SET,Telegram,电报消息"
   - "RULE-SET,OpenAi,OpenAi"
-  - "RULE-SET,NetEaseMusic,网易音乐"
   - "RULE-SET,Epic,游戏平台"
   - "RULE-SET,Origin,游戏平台"
   - "RULE-SET,Sony,游戏平台"
@@ -563,8 +519,6 @@ rules:
   - "RULE-SET,Nintendo,游戏平台"
   - "RULE-SET,YouTube,油管视频"
   - "RULE-SET,Netflix,奈飞视频"
-  - "RULE-SET,BilibiliHMT,哔哩哔哩"
-  - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,mailport,邮件"
   - "RULE-SET,ChinaMedia,国内媒体"
   - "RULE-SET,ProxyMedia,国外媒体"
