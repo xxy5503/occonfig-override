@@ -524,7 +524,7 @@ rule-providers:
     format: yaml
     type: http
   mailport:
-    url: https://testingcf.jsdelivr.net/gh/xxy5503/occonfig-override@main/mail.yaml
+    url: https://tcdn.jsdelivr.net/gh/xxy5503/occonfig-override@main/mail.yaml
     path: ./ruleset/mail.yaml
     behavior: classical
     interval: 86400
