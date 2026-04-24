@@ -242,6 +242,10 @@ proxy-groups:
     type: url-test
     interval: 300
     tolerance: 50
+  - name: 邮件
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Gmail.png
+    include-all: true
+    type: select
   - name: GLOBAL
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Global.png
     include-all: true
@@ -519,6 +523,13 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  mailport:
+    url: https://testingcf.jsdelivr.net/gh/xxy5503/occonfig-override@main/mail.yaml
+    path: ./ruleset/mail.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
 
 rules:
   - "RULE-SET,claude,AI-UNHK"
@@ -557,6 +568,7 @@ rules:
   - "RULE-SET,ChinaMedia,国内媒体"
   - "RULE-SET,ProxyMedia,国外媒体"
   - "RULE-SET,ProxyGFWlist,节点选择"
+  - "RULE-SET,mailport,邮件"
   - "RULE-SET,ChinaDomain,全球直连"
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
