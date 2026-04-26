@@ -489,6 +489,13 @@ rule-providers:
     interval: 86400
     format: yaml
     type: http
+  Github:
+    url: https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@meta/geo/geosite/github.yaml
+    path: ./ruleset/Github.yaml
+    behavior: domain
+    interval: 86400
+    format: yaml
+    type: http
 
 rules:
   - "RULE-SET,claude,AI-UNHK"
@@ -518,6 +525,7 @@ rules:
   - "RULE-SET,Steam,游戏平台"
   - "RULE-SET,Nintendo,游戏平台"
   - "RULE-SET,YouTube,油管视频"
+  - "RULE-SET,Github,GitHub-Select"
   - "RULE-SET,Netflix,奈飞视频"
   - "RULE-SET,mailport,邮件"
   - "RULE-SET,ChinaMedia,国内媒体"
