@@ -81,6 +81,7 @@ proxy-groups:
     type: select
     proxies:
       - 全球直连
+      - XHSDY
       - 香港节点
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
@@ -101,6 +102,7 @@ proxy-groups:
       - 香港节点
       - 日本节点
       - 手动切换
+      - XHSDY
   - name: 谷歌FCM
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google_Search.png
     type: select
@@ -251,6 +253,15 @@ proxy-groups:
       - 香港节点
       - 日本节点
       - 美国节点
+  - name: XHSDY
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
+    include-all: false
+    type: select
+    proxies:
+      - DIRECT
+      - GNDL
+
+
 
 rule-providers:
   LocalAreaNetwork:
@@ -498,6 +509,10 @@ rules:
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,ChinaMedia,国内媒体"
+  - "GEOSITE,xiaohongshu,XSHDY"
+  - "GEOSITE,douyin,XSHDY"
+  - "GEOSITE,bilibili,XSHDY"
+  - "GEOSITE,bilibili,XSHDY"
   - "RULE-SET,ProxyMedia,国外媒体"
   - "RULE-SET,ProxyGFWlist,节点选择"
   - "RULE-SET,ChinaDomain,全球直连"
