@@ -512,7 +512,6 @@ rules:
   - "GEOSITE,xiaohongshu,XSHDY"
   - "GEOSITE,douyin,XSHDY"
   - "GEOSITE,bilibili,XSHDY"
-  - "GEOSITE,bilibili,XSHDY"
   - "RULE-SET,ProxyMedia,国外媒体"
   - "RULE-SET,ProxyGFWlist,节点选择"
   - "RULE-SET,ChinaDomain,全球直连"
