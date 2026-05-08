@@ -255,7 +255,6 @@ proxy-groups:
       - 美国节点
   - name: XHSDY
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
-    include-all: false
     type: select
     proxies:
       - DIRECT
