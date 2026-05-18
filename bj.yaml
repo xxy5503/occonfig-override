@@ -66,14 +66,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AI.png
     type: select
     include-all: true
-    proxies:
-      - 节点选择
-      - 自动选择
-      - 故障转移
-      - 日本节点
-      - 美国节点
-      - 手动切换
-      - DIRECT
+
   - name: GitHub-Select
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/GitHub.png
     include-all: true
