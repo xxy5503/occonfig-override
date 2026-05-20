@@ -297,6 +297,12 @@ proxy-groups:
     include-all: true
     filter: (?i)落地
     type: select
+  - name: 谷歌
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Google.png
+    include-all: true
+    type: select
+    proxies:
+      - HK落地
 
 
 rule-providers:
@@ -554,4 +560,5 @@ rules:
   - "RULE-SET,ChinaCompanyIp,全球直连"
   - "RULE-SET,Download,全球直连"
   - "GEOIP,CN,全球直连"
+  - "GEOSITE,Google,谷歌"
   - "MATCH,漏网之鱼"
