@@ -283,9 +283,10 @@ proxy-groups:
   - name: XHSDY
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
     type: select
+    include-all: true
+    filter: (?i)GNDL|DIRECT|全球直连
     proxies:
       - DIRECT
-      - GNDL
   - name: 中转组
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/VIP.png
     include-all: true
