@@ -1,5 +1,5 @@
 proxy-providers:
-  Airport1:
+  SubStore:
     url: "http://10.1.3.3:3001/0c1xRqVa2MDCPLmLCckm/download/collection/ALL?target=ClashMeta"
     type: http
     interval: 86400
