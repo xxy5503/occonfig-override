@@ -284,7 +284,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/TikTok.png
     type: select
     include-all: true
-    filter: (?i)GNDL|DIRECT|全球直连
+    filter: (?i)GNDL|DIRECT|全球直连|wg|ali
     proxies:
       - DIRECT
   - name: 中转组
