@@ -1,0 +1,88 @@
+payload:
+  # ==============================
+  # JD / 京东 / 京喜 / 一号店
+  # ==============================
+  - DOMAIN-SUFFIX,jd.com
+  - DOMAIN-SUFFIX,jd.cn
+  - DOMAIN-SUFFIX,jd.com.cn
+  - DOMAIN-SUFFIX,jingdong.com
+  - DOMAIN-SUFFIX,360buy.com
+  - DOMAIN-SUFFIX,360buy.cn
+  - DOMAIN-SUFFIX,360buy.com.cn
+  - DOMAIN-SUFFIX,360buyimg.com
+  - DOMAIN-SUFFIX,jdcdn.com
+  - DOMAIN-SUFFIX,jdcache.com
+  - DOMAIN-SUFFIX,jdcontent.com
+  - DOMAIN-SUFFIX,jdpay.com
+  - DOMAIN-SUFFIX,jdpaydns.com
+  - DOMAIN-SUFFIX,jdfinance.com
+  - DOMAIN-SUFFIX,jdjinrong.com
+  - DOMAIN-SUFFIX,jingdongjinrong.com
+  - DOMAIN-SUFFIX,jingxi.com
+  - DOMAIN-SUFFIX,buyjingxi.com
+  - DOMAIN-SUFFIX,7fresh.com
+  - DOMAIN-SUFFIX,yhd.com
+  - DOMAIN-SUFFIX,yihaodian.com
+  - DOMAIN-SUFFIX,yihaodianimg.com
+  - DOMAIN-SUFFIX,yihaomall.com
+  - DOMAIN-SUFFIX,paipai.com
+  - DOMAIN-SUFFIX,joybuy.com
+  - DOMAIN-SUFFIX,jd.hk
+  - DOMAIN-SUFFIX,jd.shop
+  - DOMAIN-SUFFIX,jd-app.com
+  - DOMAIN-SUFFIX,jd-ex.com
+  - DOMAIN-SUFFIX,jd-ex.cn
+  - DOMAIN-SUFFIX,jd-ex.net
+  - DOMAIN-SUFFIX,jdl.cn
+  - DOMAIN-SUFFIX,jdl.com
+  - DOMAIN-SUFFIX,jdwl.com
+  - DOMAIN-SUFFIX,wuliujie.com
+  - DOMAIN-SUFFIX,wuliujie.cn
+  - DOMAIN-SUFFIX,yiyaojd.com
+
+  # ==============================
+  # Pinduoduo / 拼多多
+  # ==============================
+  - DOMAIN-SUFFIX,pinduoduo.com
+  - DOMAIN-SUFFIX,yangkeduo.com
+  - DOMAIN-SUFFIX,pddpic.com
+
+  # ==============================
+  # Taobao / 淘宝
+  # ==============================
+  - DOMAIN-SUFFIX,taobao.com
+  - DOMAIN-SUFFIX,taobao.org
+  - DOMAIN-SUFFIX,taobao.net
+  - DOMAIN-SUFFIX,taobaocdn.com
+  - DOMAIN-SUFFIX,taobaocdn.net
+  - DOMAIN-SUFFIX,tb.cn
+  - DOMAIN-SUFFIX,tbcache.com
+
+  # ==============================
+  # Tmall / 天猫
+  # ==============================
+  - DOMAIN-SUFFIX,tmall.com
+  - DOMAIN-SUFFIX,tmall.hk
+  - DOMAIN-SUFFIX,tmall.ru
+
+  # ==============================
+  # Xianyu / 闲鱼
+  # ==============================
+  - DOMAIN-SUFFIX,goofish.com
+  - DOMAIN-SUFFIX,xianyu.mobi
+
+  # ==============================
+  # Alibaba e-commerce common / 阿里电商通用
+  # ==============================
+  - DOMAIN-SUFFIX,alicdn.com
+  - DOMAIN-SUFFIX,alibaba.com
+  - DOMAIN-SUFFIX,alibaba-inc.com
+  - DOMAIN-SUFFIX,alibabachengdun.com
+  - DOMAIN-SUFFIX,alibabadns.com
+  - DOMAIN-SUFFIX,mmstat.com
+
+  # ==============================
+  # Alipay / 支付宝，淘宝/天猫/闲鱼支付登录可能用到
+  # ==============================
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipayobjects.com
