@@ -101,6 +101,13 @@ proxy-groups:
       - 全球直连
       - XHSDY
       - 香港节点
+  - name: CN-ALLINONE
+    icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/China.png
+    type: select
+    proxies:
+      - 全球直连
+      - XHSDY
+      - 香港节点
   - name: 国外媒体
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
@@ -523,6 +530,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  CustomAli:
+    url: https://cdn.jsdelivr.net/gh/xxy5503/occonfig-override@main/alidl.yaml
+    path: ./ruleset/alidl.yaml
+    behavior: classical
+    interval: 86400
+    format: yaml
+    type: http
 
 rules:
   - "RULE-SET,CustomDirect,全球直连"
@@ -551,6 +565,7 @@ rules:
   - "RULE-SET,BilibiliHMT,哔哩哔哩"
   - "RULE-SET,Bilibili,哔哩哔哩"
   - "RULE-SET,ChinaMedia,国内媒体"
+  - "RULE-SET,CustomAli,CN-ALLINONE"
   - "GEOSITE,xiaohongshu,XHSDY"
   - "GEOSITE,douyin,XHSDY"
   - "GEOSITE,bilibili,XHSDY"
